@@ -1,4 +1,13 @@
 package tasks;
 
-public class Apple {
+public class Apple extends Fruit{
+
+    public Apple() {
+        setWeight(1.0);
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + ": i am Apple";
+    }
 }
